@@ -30,7 +30,20 @@
 	 		System.out.println("these two lines are equal");
 	    	else
 	 		 System.out.println("these two lines are NOT equal");
+	 	int compare=length1new.compareTo(length2new);
+        if(compare<0) {
+                System.out.println("line is lesser than other line ");
+	}
+        else if(compare>0) {
+                System.out.println("line is greater than other line ");
+        }
+         else if(compare==0) {
+                System.out.println("line is equal to other line ");
+         }
+    }
+
+
 	 		
 
 }
-	}
+	
